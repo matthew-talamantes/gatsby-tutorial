@@ -1,13 +1,12 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
 
 const Error = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>404</h1>
       <h2>Page Not Found!</h2>
-    </div>
+    </Layout>
   )
 }
 
